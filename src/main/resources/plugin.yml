@@ -1,0 +1,5 @@
+name: SurvivalSystem
+version: '${project.version}'
+main: me.blu.plugin.SurvivalSystem
+api-version: '1.20'
+authors: [blu]
