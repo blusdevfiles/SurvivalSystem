@@ -3,3 +3,31 @@ version: '${project.version}'
 main: me.blu.plugin.SurvivalSystem
 api-version: '1.20'
 authors: [blu]
+commands:
+  chefe:
+    description: Du wirst zum Chef
+    usage: /chefemode
+    aliases:
+      - chef
+      - god
+      - unsterblich
+
+  feed:
+    description: Dein Hunger wird gestillt
+    usage: /feed
+    aliases:
+      - hunger
+      - fed
+  heal:
+    description: Du wirst geheilt
+    usage: /heal
+    aliases:
+      - heilen
+        heile
+
+  cc:
+    description: Chat wird aufgeräumt
+    usage: /cc
+    aliases:
+      - chatclear
+      - clear
