@@ -19,7 +19,6 @@ public final class SurvivalSystem extends JavaPlugin {
         getCommand("chefe").setExecutor(new chefemode());
         getCommand("feed").setExecutor(new feed());
         getCommand("heal").setExecutor(new heal());
-        getCommand("cc").setExecutor(());
     }
 
     @Override
