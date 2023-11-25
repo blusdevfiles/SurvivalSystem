@@ -31,3 +31,9 @@ commands:
     aliases:
       - chatclear
       - clear
+
+  fly:
+    description: Du kannst nun fliegen
+    usage: /fly
+    aliases:
+      - fliegen

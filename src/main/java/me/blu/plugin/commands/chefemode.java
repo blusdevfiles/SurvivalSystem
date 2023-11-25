@@ -1,5 +1,6 @@
 package me.blu.plugin.commands;
 
+import me.blu.plugin.SurvivalSystem;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -19,11 +20,11 @@ public class chefemode implements CommandExecutor {
             if (p.isInvulnerable()){
 
                 p.setInvulnerable(false);
-                p.sendMessage(ChatColor.DARK_GREEN + "Du bist nun ein normaler Eierkopf!");
+                p.sendMessage(SurvivalSystem.prefix + ChatColor.DARK_GREEN + "Du bist nun ein normaler Eierkopf!");
             }
             else{
                 p.setInvulnerable(true);
-                p.sendMessage(ChatColor.DARK_RED + "Du bist nun Chefe!");
+                p.sendMessage(SurvivalSystem.prefix + ChatColor.DARK_RED + "Du bist nun Chefe!");
             }
         }
 

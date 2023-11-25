@@ -1,5 +1,6 @@
 package me.blu.plugin.commands;
 
+import me.blu.plugin.SurvivalSystem;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -14,11 +15,11 @@ public class heal implements CommandExecutor {
             p = (Player) sender;
 
             if (p.getHealth() == 20){
-                p.sendMessage(ChatColor.AQUA + "Du bist gesund!");
+                p.sendMessage(SurvivalSystem.prefix + ChatColor.AQUA + "Du bist gesund!");
             }
             else{
                 p.setHealth(20);
-                p.sendMessage(ChatColor.AQUA + "Du bist nun geheilt!");
+                p.sendMessage(SurvivalSystem.prefix + ChatColor.AQUA + "Du bist nun geheilt!");
             }
         }
 
